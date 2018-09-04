@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/sseuraeki/DQN_Navigation/images/image1.png "Kernel"
+[image1]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image1.png "Kernel"
 
 ## Navigation
 
