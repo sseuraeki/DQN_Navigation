@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image1.png "Kernel"
+[image1]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image1.gif "Kernel"
+[image2]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image2.png "Kernel"
 
 ## Navigation
 
@@ -10,6 +11,8 @@ This project aims to train a DQN(Deep Q-learning Networks) agent that can solve 
 <br>The environment for the navigation problem is provided by Unity-ML Agents which consists of a 37-length vector representing the state and a 4-length vector representing the action space.
 <br>The agent will receive a +1 reward when it consumes a yellow banana and will receive a -1 reward when it consumes a blue banana.
 <br>The problem is considered to have been solved when the agent achieves an average reward of 13 or more over 100 continuous episodes.
+
+![Kernel][image1]
 
 ### Dependencies
 
@@ -62,7 +65,7 @@ python -m ipykernel install --user --name dqn_navigation --display-name "DQN_Nav
 
 5. Before running code in a notebook, change the kernel to match the `dqn_navigation` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image1]
+![Kernel][image2]
 
 ### Running the code
 
@@ -73,12 +76,4 @@ To see how the agent gets trained and learns, follow the instructions in Navigat
 
 2. Watching the trained agent
 If you want to just see the trained agent in action, run Navigation.py.
-
-### Project details
-
-
-
-
-
-
 
