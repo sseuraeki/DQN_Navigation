@@ -1,3 +1,7 @@
+[//]: # (Image References)
+
+[image4]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image4.png "Algorithm"
+
 ## Project Report
 
 ### Project description
@@ -17,4 +21,7 @@ But when neural networks are used to represent the action value functions, Q-lea
 DQN overcomes this unstability by applying two decent techniques. These are:
 * Experience Replay
 * Fixed Q-Targets
+
+Below is the full algorithm pseudo code for training DQN introduced in [DQN Nature paper][https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf] written by Google DeepMind.
+![Kernel][image4]
 
