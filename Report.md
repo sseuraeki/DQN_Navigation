@@ -29,3 +29,5 @@ Below is the full algorithm pseudo code for training DQN introduced in [DQN Natu
 
 ![Kernel][image4]
 
+This project implements above algorithm with python.
+<br>The agent selects an action according to an \(\epsilon\)-greedy
