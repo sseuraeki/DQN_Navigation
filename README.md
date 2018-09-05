@@ -67,12 +67,12 @@ python -m ipykernel install --user --name dqn_navigation --display-name "DQN_Nav
 
 ![Kernel][image2]
 
+
 ### Running the code
 
 1. Training the agent
 To see how the agent gets trained and learns, follow the instructions in Navigation.ipynb file. Jupyter Notebook is recommended to open and view this file.
 <br>This project already has learnt weights in checkpoint.chp file. Demonstration of this project will use this file to load up the weights.
-<br>Navigation.ipynb will save weights to checkpoint2.chp which is a different checkpoint file, so feel free to run the codes in the notebook if you decide to train the agent yourself.
 
 2. Watching the trained agent
 If you want to just see the trained agent in action, run Navigation.py.
