@@ -1,5 +1,6 @@
 [//]: # (Image References)
 
+[image3]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image3.png "QNetwork"
 [image4]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image4.png "Algorithm"
 
 [//]: # (Links)
@@ -30,4 +31,14 @@ Below is the full algorithm pseudo code for training DQN introduced in [DQN Natu
 ![Kernel][image4]
 
 This project implements above algorithm with python.
-<br>The agent selects an action according to an \(\epsilon\)-greedy
+First, we will initialize replay memory D(implemented as 'ReplayBuffer' class in the code using python built-in library deque) and Q networks with random weights.
+<br>Both target and local Q networks will have below structures:
+
+![Kernel][image3]
+
+Each Q network will receive 37-len vector(which represents the environment state) as inputs and then pass it to a 32 units linear layer which will pass the output to a ReLU activation layer.
+<br>Then the outputs will be sent to the second linear layer which has 16 units, again passing through a ReLU layer.
+<br>Finally the outputs will be sent to the output layer which produces a 4-len vector(representing the action space) each element as the action value for each action.
+
+There are some hyperparameters that can be tuned before training.
+<br>In this project, replay buffer size is set to 100,000 and the batch size for sampling is set to 64. The discount factor which will be applied to expected rewards is set to 0.99 and the learning rate for the optimizer(we will use the Adam optimizer) is set to 5e-4. The Q target networks will only get updated every 4 steps.
