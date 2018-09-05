@@ -26,5 +26,6 @@ DQN overcomes this unstability by applying two decent techniques. These are:
 * Fixed Q-Targets
 
 Below is the full algorithm pseudo code for training DQN introduced in [DQN Nature paper][paper1] written by Google DeepMind.
+
 ![Kernel][image4]
 
