@@ -2,6 +2,9 @@
 
 [image4]: https://github.com/sseuraeki/DQN_Navigation/blob/master/images/image4.png "Algorithm"
 
+[//]: # (Links)
+[paper1]: https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
+
 ## Project Report
 
 ### Project description
@@ -22,6 +25,6 @@ DQN overcomes this unstability by applying two decent techniques. These are:
 * Experience Replay
 * Fixed Q-Targets
 
-Below is the full algorithm pseudo code for training DQN introduced in [DQN Nature paper][https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf] written by Google DeepMind.
+Below is the full algorithm pseudo code for training DQN introduced in [DQN Nature paper][paper1] written by Google DeepMind.
 ![Kernel][image4]
 
